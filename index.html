@@ -9,12 +9,12 @@
 <body>
 	<h3>To-Do List:</h3>
 	<div>
-		<label>Enter your item: </label>
+		<label>Enter your item:</label>
         <div>
             <input type="text" id="list-input">
-            <span id="error"></span>
+            <button id="save"  class="btn active">Save</button>
         </div>
-        <button id="save"  class="active btn">Save</button>
+        <span id="error"></span>
   </div>
   <div id="output">
     <h5>Entered Item(s) are:</h5>
@@ -25,7 +25,7 @@
     <button id="unselected" class="btn">Show Unchecked</button>
     <button id="all" class="btn">Show All</button>
     <h5 id="heading"></h5>
-    <div id="items"></div>
+    <ol id="items"></ol>
   </div>  
 </body>
 

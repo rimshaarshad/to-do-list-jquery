@@ -8,7 +8,7 @@ h1, h2 {
 .btn, #list-input{
   border: 1px solid grey;
   padding: .5rem 1rem;
-  border-radius: .5rem;
+  border-radius: .3rem;
 }
 #save{
   margin-top: .5rem;
