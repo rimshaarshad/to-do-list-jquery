@@ -1,3 +1,15 @@
 h1, h2 {
   font-family: Lato;
 }
+.active, .btn:hover {
+  background-color: green;
+  color: aliceblue;
+}
+.btn, #list-input{
+  border: 1px solid grey;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+}
+#save{
+  margin-top: .5rem;
+}
