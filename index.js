@@ -51,7 +51,6 @@ $(document).ready(function () {
         check.push($(this).html());
       }
     });
-    console.log(check);
     $.fn.view(check, "Checked item(s) are:");
   });
 
