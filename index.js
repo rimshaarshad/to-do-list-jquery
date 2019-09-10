@@ -74,7 +74,6 @@ $(document).ready(function () {
     check = [];
     $("li").each(function (index) {
       check.push($(this).html());
-      console.log($(this).html());
     });
     $.fn.view(check, "All item(s) are:");
   });
