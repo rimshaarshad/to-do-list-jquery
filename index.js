@@ -61,6 +61,8 @@ $(document).ready(function () {
     check = [];
     $("li").each(function (index) {
       if (lsInput[index].checked != true) {
+        $(this).find('input').attr({unchecked:''});
+        //console.log($(this).clone());
         check.push($(this).html());
       }
     });
